@@ -23,3 +23,7 @@ def f(x):
 def __init__(self, x, y):
 	return x + y
 ```
+
+###Why typecheck Python?
+
+There are a lot of reasons why Python shouldn't be typechecked generally. The weak typing is an advantage of the language, and is useful in a lot of contexts. However, there are times when being able to control the types of a function allows you to better debug your code and prove correctness. Type systems are important in this aspect. @typecheck is a compromise between the two, allowing you to choose when functions and which arguments should and should not be typechecked. 
