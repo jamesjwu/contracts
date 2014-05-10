@@ -17,7 +17,7 @@ Usage:
 def f(x):
 	return x + 5
 #put None, typecheck.void for arguments you don't want to typecheck
-#ignore self part
+#add typecheck.self for class methods
 #also, out is optional
 @typecheck(typecheck.self, int, int)
 def __init__(self, x, y):
