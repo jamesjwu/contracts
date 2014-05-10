@@ -5,7 +5,7 @@ It also contains a typechecking library, Typecheck, that acts as a python typech
 
 
 ##requires() and ensures()
-To use pre and post conditions, simply place them in the document where you want them asserted. 
+To use pre and post conditions, simply place them in the document where you want them asserted. DEBUG.contracts is default set to True, but if you want to run your system for performance after checking for correctness, without contracts and assertions, set DEBUG.contracts to False to turn them off. 
 
 ##@typecheck
 Just put in the argument types. Use the keyword arg out to declare an output type.
